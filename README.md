@@ -5,7 +5,7 @@ This app allows user to create blog, update the notes and delete them if they do
 #### Instructions 
 1.Download the source code 
 ```bash 
-git clone [url to the github repo]
+git clone [https://github.com/00013186/Blog-app.git]
 ```
 or just download *.zip file
 
@@ -24,4 +24,4 @@ node app
 - pug
 
 #### Link to github
-[link to github repo]
+[https://github.com/00013186/Blog-app.git]
