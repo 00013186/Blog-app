@@ -47,6 +47,9 @@
         padding: 10px;
         font-size: 1.5rem;
         border-bottom: 1px dotted #ccc;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     .todo:last-child {
         border-bottom: none;
@@ -71,3 +74,26 @@
         color: green;
         border-color: green;
     }
+    .delete {
+        text-decoration: none;
+        font-size: 1rem;
+        padding: 5px;
+        background-color: tomato;
+        color: #fff;
+    }
+    .authority {
+        text-decoration: none;
+        font-size: 1rem;
+        padding: 5px;
+        margin-top: 40%;
+    }
+    .done,
+    .undone {
+        text-decoration: none;
+        color: black;
+    }
+
+    .done{
+        text-decoration: line-through;
+    }
+

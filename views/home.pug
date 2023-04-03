@@ -1,12 +1,14 @@
 extends layout.pug
 
-
 block number1
     if error 
         p.error Please fill the input
 
     if success 
         p.success Good Job
+
+    if deleted 
+        p.success Deleted     
     form.form(action='/add' method='POST')
         input.input(type='text' placeholder='Create your own blog here...' name='todo')
         button.btn Add 
@@ -15,11 +17,10 @@ block number1
     div.todos
         if todos.length
             each todo in todos
-                p.todo #{todo.description}
+                p.todo 
+                    a(href='/${todo.id}/update') #{todo.description}
+                    a.delete(href=`/${todo.id}/delete`) Delete
         else 
             p.todo No any blogs there...
 
-
-  
-
-
+    p.authority This web application was created to fulfill Web Technology module’s requirements and does not represent an actual company or service
