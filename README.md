@@ -25,3 +25,6 @@ node app
 
 #### Link to github
 [https://github.com/00013186/Blog-app.git]
+
+#### Link to application on Glitch
+https://bitter-tasty-iridium.glitch.me
