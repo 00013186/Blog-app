@@ -20,7 +20,7 @@ block number1
                 p.todo 
                     if todo.done 
                         a.done(href='/${todo.id}/update') #{todo.description}
-                     else
+                    else
                         a.undone(href='/${todo.id}/update') #{todo.description}
                     a.delete(href=`/${todo.id}/delete`) Delete
         else 
